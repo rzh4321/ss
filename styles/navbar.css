@@ -1,0 +1,66 @@
+.user-profile-pic {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.user-profile-pic-arrow {
+  margin-right: 10px;
+}
+
+.user-profile-pic-icon {
+  font-size: 40px !important;
+}
+
+.nav-item-icon {
+  font-size: 32px !important;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 50px;
+}
+
+.search-form {
+  border-radius: 0.375rem;
+}
+
+.search-form button {
+  border: none;
+  background-color: transparent;
+}
+
+.search-form input {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  width: 100vw;
+}
+
+.search-form input::placeholder {
+  color: rgba(222, 226, 230, 0.5);
+}
+
+.modal-content .d-flex {
+  transition: 0.1s ease-in-out;
+}
+
+.modal-content .d-flex:focus-within {
+  border: 2px solid rgb(13, 110, 253);
+  border-radius: 0.375rem;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.search-icon-button {
+  margin-right: 0.5rem;
+}
+
+.search-icon-modal {
+  width: 24px;
+  height: 24px;
+}

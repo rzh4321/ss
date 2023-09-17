@@ -1,0 +1,25 @@
+.user-card {
+  max-width: 650px;
+}
+
+.user-profile-pic {
+  height: 40px;
+  width: 40px;
+}
+
+.user-profile-pic:hover {
+  cursor: pointer;
+}
+
+.user-profile-pic-icon {
+  font-size: 40px !important;
+}
+
+.user-profile-pic-icon:hover {
+  cursor: pointer;
+}
+
+.request-icon {
+  position: relative;
+  bottom: 15px;
+}

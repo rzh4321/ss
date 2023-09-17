@@ -1,0 +1,44 @@
+.card-login {
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.google-logo {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 10px;
+}
+
+body {
+  background: #fff;
+}
+
+.wrapper {
+  animation: scroll 1000s linear infinite;
+  background: url("https://images.unsplash.com/photo-1534841090574-cba2d662b62e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80");
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+@keyframes scroll {
+  100% {
+    background-position: 0px -400%;
+  }
+}
+
+/* Fallback if the operatring system prefers reduced motion*/
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
